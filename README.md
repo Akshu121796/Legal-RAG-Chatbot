@@ -13,7 +13,6 @@ A local Retrieval-Augmented Generation (RAG) chatbot that allows users to upload
 
 ### 📁Project structure
 legal-rag-chatbot/
-│
 ├── app.py                      
 ├── requirements.txt            
 ├── README.md                   
