@@ -5,5 +5,8 @@ llama-cpp-python==0.3.14
 sentence-transformers
 langchain
 diskcache
+langchain-community
+
+
 
 
