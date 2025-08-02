@@ -2,9 +2,10 @@ import os
 import gradio as gr
 from langchain_community.document_loaders import PyMuPDFLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
-from langchain.embeddings import HuggingFaceEmbeddings
-from langchain.vectorstores import FAISS
-from langchain.llms import LlamaCpp
+from langchain_community.embeddings import HuggingFaceEmbeddings
+from langchain_community.vectorstores import FAISS
+from langchain_community.llms import LlamaCpp
+
 
 # Constants
 MODEL_PATH = "models/mistral-7b-instruct-v0.1.Q4_K_M.gguf"
@@ -107,3 +108,4 @@ with gr.Blocks() as demo:
 
 # Launch app
 demo.launch()
+
