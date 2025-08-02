@@ -1,0 +1,2 @@
+This folder should contain the GGUF model:
+e.g., mistral-7b-instruct-v0.1.Q4_K_M.gguf
