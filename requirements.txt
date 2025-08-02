@@ -1,7 +1,9 @@
-chainlit==2.6.3
+gradio
 PyMuPDF==1.26.3
 faiss-cpu
 llama-cpp-python==0.3.14
 sentence-transformers
 langchain
 diskcache
+
+
